@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<!-- ================================================
+    Project:    All About Marathon Training
+    Version:    1.3
+    Author:     Andrew Mawhinney
+    Owner:      All About Marathon Training  --  https://www.all-about-marathon-training.com/
+    Email:      ajmawhinn@gmail.com
+    Follow:     https://twitter.com/AMawhinn
+    Website:    - Coming soon -
+===================================================-->
+<html>
+
+<head>
+    <title>All About Marathon Training</title>
+    <meta name="keywords" content="marathon training,training for a marathon">
+    <meta name="description" content="This Marathon Training website will provide you with everything you need to know about training, running and successfully completing a marathon. ">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <!-- Do I still need this? -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Cabin" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Tab Icon -->
+    <link rel="shortcut icon" href="http://res.cloudinary.com/mawhinn/image/upload/r_50/a_0/v1520543717/Runner_qb2gil.png" class="w3-round-xxlarge" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<!-- BODY -->
+
+<body>
+
+    <!--NAVBAR-->
+    <section>
+
+        <nav class="invizbar navbar-inverse navbar-fixed-top transparent">
+            <div class="w3-bar">
+                <a href="https://www.all-about-marathon-training.com/" title="Run Run Run!" class="navbar-left img-responsive zoom"><img src="https://res.cloudinary.com/mawhinn/image/upload/c_scale,h_60,r_4/v1519413779/Runner_ti4adt.png" class="w3-padding"></a>
+                <h5>
+                    <div class="smallnav" id="mySmallnav">
+                        <div class="navbar-right">
+                            <div class="w3-dropdown-hover">
+                                <a href="#home"><button class="w3-button w3-hide" >HOME</button></a>
+                            </div>
+                            <div class="w3-dropdown-hover cat">
+                                <button class="w3-button cat"><b>TRAINING PLANS</b></button>
+                                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                                    <a href="https://www.all-about-marathon-training.com/marathon-training-schedule.html" class="w3-bar-item w3-button cat">Marathon Training</a>
+                                    <a href="https://www.all-about-marathon-training.com/half-marathon-training.html" class="w3-bar-item w3-button cat">Half Marathon Training</a>
+                                    <a href="https://www.all-about-marathon-training.com/10K-training-plan.html" class="w3-bar-item w3-button cat">10K Training</a>
+                                    <a href="https://www.all-about-marathon-training.com/beginning-running.html" class="w3-bar-item w3-button cat">Start Running</a>
+                                    <a href="https://www.all-about-marathon-training.com/jogging-for-weight-loss.html" target="_blank" class="w3-bar-item w3-button cat">Lose Weight</a>
+                                </div>
+                            </div>
+                            <a href="https://www.all-about-marathon-training.com/shop.html" class="w3-bar-item w3-button cat">PROGRAMS</a>
+                            <div class="w3-dropdown-hover cat">
+                                <button class="w3-button">TRAINING RESOURCES</button>
+                                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                                    <a href="https://www.all-about-marathon-training.com/hill-repeats.html" class="w3-bar-item w3-button cat">Hill Training</a>
+                                    <a href="https://www.all-about-marathon-training.com/speed-training.html" class="w3-bar-item w3-button cat">Speed Training</a>
+                                    <a href="https://www.all-about-marathon-training.com/long-distance-running.html" class="w3-bar-item w3-button cat">The Long Run</a>
+                                    <a href="https://www.all-about-marathon-training.com/cross-training.html" class="w3-bar-item w3-button cat">Cross Training</a>
+                                    <a href="https://www.all-about-marathon-training.com/strength-training-for-runners.html" class="w3-bar-item w3-button cat">Strength Training</a>
+                                    <a href="https://www.all-about-marathon-training.com/pace-calculator.html" class="w3-bar-item w3-button cat">Pace Calculator</a>
+                                    <a href="https://www.all-about-marathon-training.com/correct-running-form.html" class="w3-bar-item w3-button cat">Correct Running Form</a>
+                                    <a href="https://www.all-about-marathon-training.com/running-gear.html" class="w3-bar-item w3-button cat">Running Gear</a>
+                                    <a href="https://www.all-about-marathon-training.com/best-running-shoes.html" class="w3-bar-item w3-button cat">Running Shoes</a>
+                                    <a href="https://www.all-about-marathon-training.com/marathon-nutrition.html" class="w3-bar-item w3-button cat">Nutrition</a>
+                                    <a href="https://www.all-about-marathon-training.com/running-tips-hydration.html" class="w3-bar-item w3-button cat">Hydration</a>
+                                    <a href="https://www.all-about-marathon-training.com/running-motivation.html" class="w3-bar-item w3-button cat">Motivation</a>
+                                    <a href="https://www.all-about-marathon-training.com/runninginjuries.html" class="w3-bar-item w3-button cat">Running Injuries</a>
+                                    <a href="https://www.all-about-marathon-training.com/women-jogging.html" class="w3-bar-item w3-button cat">Women Runners</a>
+                                </div>
+                            </div>
+                            <div class="w3-dropdown-hover cat">
+                                <button class="w3-button">ABOUT + CONTACT ME</button>
+                                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                                    <a href="https://www.all-about-marathon-training.com/contact-us.html" class="w3-bar-item w3-button cat">Contact Me</a>
+                                    <a href="https://www.all-about-marathon-training.com/about-me.html" class="w3-bar-item w3-button cat">About Me</a>
+                                </div>
+                            </div>
+                            <a href="https://www.all-about-marathon-training.com/custom-training.html" target="_blank" class="w3-bar-item w3-button cat" style="margin-right:30px;">WORK WITH ME
+
+
+                                 </a>
+
+
+
+
+
+
+
+
+
+                    <a href="https://www.facebook.com/allaboutmarathontrainingcom" target="_blank" style="color: black; padding-right: 10px;">
+                <span class="w3-xlarge"><i class="fa fa-facebook-official w3-hover-opacity"></i></span>
+                </a>
+
+                            <a href="#" target="_blank" style="color: black;  padding-right: 10px;">
+                <span class="w3-xlarge"><i class="fa fa-twitter w3-hover-opacity"></i></span>
+                </a>
+
+
+                            <a href="https://www.pinterest.com/aamarathontrain/" target="_blank" style="color: black; margin: 600px 50px 0px 0px;">
+                <span class="w3-xlarge" ><i class="fa fa-pinterest-p w3-hover-opacity"></i></span>
+                </a>
+
+
+
+
+
+
+
+
+
+
+            </div>
+            <a href="javascript:void(0);" style="font-size:15px;" class="cat icon w3-padding w3-large" onclick="responsiveNav()"><i class="fa fa-bars w3-white"></i></a>
+            </div>
+            </h5>
+            </div>
+            <div class="bar-position nav-shadow">
+                <div class="progress-container">
+                    <div class="progress-bar" id="myBar"></div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- NAVBAR - end -->
+
+
+
+    <!-- First Parallax Image with Logo Text -->
+    <header class="zoom-me w3-display" id="home">
+        <!--<div class="bgimg- w3-display-container w3-opacity-min" id="home">-->
+        <img src="image-files/road.jpg" class="hero">
+
+
+        <div class="w3-display-middle" style="white-space:nowrap;">
+            <h3>
+                <span class="w3-center w3-round w3-padding-large w3-black w3-xxlarge w3-wide w3-animate-opacity w3-hide-small">ALL ABOUT MARATHON TRAINING</span>
+            </h3>
+            <h3>
+                <a href="https://app.mailerlite.com/webforms/landing/g4g5y5" class="w3-hide-large w3-hide-medium">
+                <span class="w3-hide-large w3-center w3-round w3-black w3-xxxlarge w3-wide w3-animate-opcity">ALL ABOUT<br>MARATHON<br>TRAINING</span>
+                </a>
+            </h3>
+        </div>
+    </header>
+
+
+
+
+    <main>
+<!--
+        <div class="w3-hide-small">
+
+            <div class="w3-center w3-padding w3-grey w3-opacity-min">
+                <a href="https://app.mailerlite.com/webforms/landing/g4g5y5">
+                    <h4 class="w3-grey" style="font-size: 150%">SET YOUR GOALS - PUT IN THE EFFORT - BE PROUD<br>MORE TEXT HERE MORE TEXT HERE</h4>
+                </a>
+                <script type="text/javascript" src="https://app.mailerlite.com/data/webforms/817398/z6a5z0.js?v9"></script>
+            </div>
+        </div>-->
+        <!--</div>-->
+
+
+        <!--
+<div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button w3-dropdown-hover">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> RUN!</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+-->
+
+        <!-- Container (About Section) -->
+        <div class="w3-content w3-container w3-padding-48" id="about">
+            <h3 class="w3-center ">
+                <font color="#2f8991">WELCOME TO ALL ABOUT MARATHON TRAINING!</font>
+            </h3>
+            <p class="w3-center">
+                <!--<em>I love running</em>--></p><br>
+            <hr><br>
+
+            <div class="w3-row">
+                <div class="w3-col m4 w3-center w3-padding-large">
+                    <a href="https://www.all-about-marathon-training.com/custom-training.html">
+                <img src="https://www.all-about-marathon-training.com/images/HomePageMePic.jpg" title="Go to Custom Training" class="w3-round w3-image w3-grayscale-max" alt="Molly Armesto" width="500" height="333" style="margin:0 10px 60px -16px">
+                </a>
+                </div>
+
+                <!-- Hide this text on small devices -->
+                <div class="w3-col m6 w3-hide-small"><br>
+                    <h4 style="line-height:30px">
+                        <p>Hey Molly, I know you didn't have your intro up top like this. I tried putting it on the side like your current homepage but it just looked out of place. I can put it back there is you wish. And all of this is super rough. I wasn't going to put the finish on it unless you liked it so far. Two things I made sure of in this draft and those the navbar and the page width. The page is a pretty different theme from your current page. 80% of the links wont work rn either. Please don't feel like you have to use this. This is more of a learning experiance for me. You can have me alter almost any detail you don't like. If this isn't what you had in mind at all, I am MORE than happy to work with a different theme. You can even hire someone else to do it! It's your page in the end. Thank you for giving me this chance though. I enjoyed it.
+                        </p>
+                    </h4>
+                </div>
+            </div>
+
+            <h4 class="w3-large w3-center w3-padding-16">This is just a random brainless idea.-- My hobbies include:</h4>
+            <p class="w3-wide"><i class="fa fa-road"></i>Running</p>
+            <div class="w3-light-grey">
+                <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+            </div>
+            <p class="w3-wide"><i class="fa fa-camera"></i>Photography</p>
+            <div class="w3-light-grey">
+                <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+            </div>
+            <p class="w3-wide"><i class="fa fa-photo"></i>Photoshop</p>
+            <div class="w3-light-grey">
+                <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
+            </div>
+            <div class="w3-padding-48">
+                <h4 style="line-height:30px">Let's stop wasting time and get moving! We've got half marathon + full marathon training plans, information and tips, everything to get you from the couch to the finish line. There is so much to learn and experience in the world of running. Which is why you're going to find so much in these pages to completely make you want to unplug and go for a run. (You know that feeling too, huh? :)) </h4>
+            </div>
+        </div>
+
+        <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+            <h4>
+                <div class="w3-quarter w3-section">
+                    <span class="w3-xlarge">14+</span><br> Partners
+                </div>
+                <div class="w3-quarter w3-section">
+                    <span class="w3-xlarge">55+</span><br> Projects Done
+                </div>
+                <div class="w3-quarter w3-section">
+                    <span class="w3-xlarge">89+</span><br> Meetings
+                </div>
+                <div class="w3-quarter w3-section">
+                    <span class="w3-xlarge">1500+</span><br> Happy Runners
+                </div>
+            </h4>
+        </div>
+
+        <!-- Second Parallax Image with Portfolio Text ****Temp took out ----w3-opacity-min------>
+
+        <div class="bgimg-2 w3-display-container">
+            <div class="w3-display-middle">
+                <h3><span class="w3-xxlarge w3-text-white w3-wide">WHAT DO YOU WANT TO DO</span></h3>
+            </div>
+        </div>
+
+        <!-- Container (Portfolio Section) -->
+        <div class="w3-content w3-container w3-padding-48" id="portfolio">
+            <h3 class="w3-center">
+                <font color="#2f8991">WHAT DO YOU WANT TO DO</font>
+            </h3><br>
+            <hr><br>
+            <h4 class="w3-center"><em>Click an image for more info.<br></em></h4><br>
+
+            <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+            <div class="w3-row-padding w3-center">
+                <div class="w3-col m4">
+                    <a href="https://www.all-about-marathon-training.com/beginning-running.html">
+                <img src="https://www.all-about-marathon-training.com/images/HomeStartRunning.png" style="width:100%" title="Begin Running" class="zoom w3-hover-opacity image-border w3-grayscale-max" alt="Lets start running">
+                </a>
+                </div>
+
+                <div class="w3-col m4">
+                    <a href="https://www.all-about-marathon-training.com/half-marathon-training.html">
+                <img src="https://www.all-about-marathon-training.com/images/HomeHalfMarathon.png" style="width:100%" title="Run a Half Marathon" class="zoom w3-hover-opacity image-border w3-grayscale-max" alt="Run Half Marathon">
+                </a>
+                </div>
+
+                <div class="w3-col m4">
+                    <a href="https://www.all-about-marathon-training.com/marathon-training-schedule.html">
+                <img src="https://www.all-about-marathon-training.com/images/HomeMarathon.png" style="width:100%" title="Run a Marathon" class="zoom w3-hover-opacity image-border w3-grayscale-max" alt="Run a Marathon">
+                </a>
+                </div>
+            </div>
+            <div class="w3-row-padding w3-center w3-section">
+                <div class="w3-col m4">
+                    <a href="https://www.all-about-marathon-training.com/how-to-run-faster.html">
+                <img src="https://www.all-about-marathon-training.com/images/FasterHome.png" style="width:100%" title="I want to get faster" class="zoom w3-hover-opacity image-border w3-grayscale-max" alt="Run Faster">
+                </a>
+                </div>
+
+
+                <div class="w3-col m4">
+                    <a href="https://www.all-about-marathon-training.com/marathon-nutrition.html">
+                <img src="https://www.all-about-marathon-training.com/images/HomeNutrition.png" style="width:100%" title="Nutritious eating for runners" class="zoom w3-hover-opacity image-border w3-grayscale-max" alt="Heathy eating for Runners">
+                </a>
+                </div>
+
+                <div class="w3-col m4">
+                    <a href="https://www.all-about-marathon-training.com/jogging-for-weight-loss.html">
+                <img src="https://www.all-about-marathon-training.com/images/HomeLoseWeightButton.png" style="width:100%" title="Jogging for Weight loss (Your 10 step plan)" class="zoom w3-hover-opacity image-border w3-grayscale-max" alt="Lose those pounds">
+                </a>
+                </div>
+
+                <!--<button class="w3-button w3-padding-large w3-light-grey" style="margin-top:48px">LOAD MORE</button>-->
+            </div>
+        </div>
+        <!-- ***********End of Grid********** -->
+
+        <!-- (For "pop up" image Modal for full size images on click-->
+
+        <!-- Third Parallax Image with Portfolio Text -->
+        <div class="bgimg-3 w3-display-container w3-opacity-min">
+            <div class="w3-display-middle">
+                <h3><span class="w3-xxlarge w3-text-white w3-wide w3-animate-left">BECOME A BETTER RUNNER</span></h3>
+            </div>
+        </div>
+        <!-- Become a better runner links -->
+
+        <div class="w3-content w3-container w3-padding-48" id="portfolio">
+            <h3 class="w3-center">
+                <font color="#2f8991">I HAVE TIPS FOR EVERYONE</font>
+            </h3><br>
+            <hr><br>
+            <h4 class="w3-center"><em>Click an image for more info.<br></em></h4><br>
+
+            <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+            <div class="w3-row-padding w3-center">
+                <div class="w3-col m5 w3-margin">
+                    <a href="https://all-about-marathon-training.teachable.com/p/the-simplified-guide-to-nutrition-hydration-for-runners">
+                <img src="https://www.all-about-marathon-training.com/images/NGCompleteMockup.png" style="width:100%" title="The Simplified Guide to Nutrition" class="zoom w3-hover-opacity w3-round w3-grayscale-max" alt="Eat like a runner">
+                </a>
+                </div>
+
+                <div class="w3-col m5 w3-margin">
+                    <a href="https://all-about-marathon-training.teachable.com/p/pacing-kit-for-runners-who-want-to-meet-time-goals">
+                <img src="https://www.all-about-marathon-training.com/images/PKCompleteMockup.png" style="width:100%" title="Meet Your Goals with this Pacing Kit" class="zoom w3-hover-opacity w3-round w3-grayscale-max" alt="Runners pacing kit">
+                </a>
+                </div>
+                <div class="w3-content w3-container w3-padding-48" id="portfolio">
+                    <h3 class="w3-center">
+                        <font color="#2f8991">CHALLENGE YOURSELF!</font>
+                    </h3>
+                    <br>
+                    <hr>
+                    <h4 class="w3-center"><em>Click an image for more info.<br></em></h4><br>
+
+                    <div class="w3-col m5 w3-margin">
+                        <a href="https://all-about-marathon-training.teachable.com/p/the-6-week-half-marathon-challenge">
+                    <img src="https://www.all-about-marathon-training.com/images/ChallengeCompleteMockup.png" style="width:100%" title="Take up a plan and challenge yourself" class="zoom w3-hover-opacity w3-round w3-grayscale-max" alt="The 6 week half-marathon challenge">
+                    </a>
+                    </div>
+
+                    <div class="w3-col m5 w3-margin">
+                        <a href="https://all-about-marathon-training.teachable.com/p/12-week-half-marathon-weight-loss-challenge">
+                    <img src="https://www.all-about-marathon-training.com/images/WLDesktopSetupMockup.jpg" style="width:100%" title="Challenge yourself to meet your weight loss goals" class="zoom w3-hover-opacity w3-round w3-grayscale-max" alt="Weight Loss Challenge">
+                    </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--<button class="w3-button w3-padding-large w3-light-grey" style="margin-top:48px">LOAD MORE</button>-->
+        </div>
+
+
+        <!-- Container (Contact Section) -->
+        <div class="w3-container w3-padding-32" style="background-color:#f4f4f4" id="contact">
+            <h3 class="w3-center">
+                <font color="#2f8991">SOME POPULAR TRAINING PAGES</font>
+            </h3>
+            <br>
+            <hr class="w3-content">
+            <div class="w3-content w3-row-padding w3-center ">
+                <div class="w3-col m4 w3-padding-48">
+                    <a href="https://www.all-about-marathon-training.com/correct-running-form.html">
+                <img src="https://www.all-about-marathon-training.com/images/FormTipsforRunners.png" style="width:100%" title="Correct Running Form" class="zoom w3-hover-opacity w3-round w3-grayscale-max" alt="Correct Running Form">
+                </a>
+                </div>
+
+                <div class="w3-col m4 w3-padding-48">
+                    <a href="https://www.all-about-marathon-training.com/running-tips-pacing.html">
+                <img src="https://www.all-about-marathon-training.com/images/PacingTipsforRunners.png" style="width:100%" title="How to set a good pace for your long and short runs" class="zoom w3-hover-opacity w3-round w3-grayscale-max" alt="At a Runners Pace">
+                </a>
+                </div>
+
+                <div class="w3-col m4 w3-padding-48">
+                    <a href="https://www.all-about-marathon-training.com/long-distance-running.html">
+                <img src="https://www.all-about-marathon-training.com/images/LongRunCoverPic.jpg" style="width:100%" title="The long run guide for Marathoners & Half-Marathoners" class="zoom w3-hover-opacity w3-round w3-grayscale-max" alt="Lets start running">
+                </a>
+                </div>
+            </div>
+        </div>
+        <div class="w3-container w3-padding-48" id="contact">
+            <h3 class="w3-center">
+                <font color="#2f8991">Why you should start marathon training...</font>
+            </h3>
+            <br>
+            <hr class="w3-content">
+            <div class="w3-content w3-row-padding">
+                <h4 style="line-height:30px">
+                    <p>
+                        Just look at what running is.
+                    </p>
+                    <p>
+                        It's peaceful runs out in the beauty of nature. It's running for the <b>sheer joy of running</b>. It’s training not only your <b>body but also your mind</b>. It's the feeling of <b>accomplishment, passion and discovery</b>.
+                    </p>
+                    <p>
+                        It's meeting new people and <b>making new friends</b>, it's anxious pre-race nights and thrilling early mornings.
+                    </p>
+                    <p>
+                        It's blisters and sores, it's old shoes and new. It's starting lines and finish lines and everything in between.
+                    </p>
+                    <p>
+                        It's the difference between feeling good and feeling that we need to do something, give something. It's being able to eat that fifth chocolate chip cookie.
+                    </p>
+                    <p>
+                        It's bringing out the best in yourself so that you can give others your best.
+                    </p>
+                    <p>
+                        It's fun, it's exhausting, it's complicated, it's exciting.
+                    </p>
+                    <p>
+                        <b>It's hard but it is worth every ounce of effort.</b>
+                    </p>
+                    <p>
+                        Trust me, <b>you won't regret your decision to run a marathon whether its your first or one hundreth</b>. If you put in the time and the effort you will reap the rewards and prove to yourself that <b>you can do anything</b>.
+                    </p>
+                    <p>
+                        Anything.
+                    </p>
+                </h4>
+                <h3 class="w3-center">
+                    <font color="#2f8991">Before you hit the road running...</font>
+                </h3>
+                <h4 style="line-height:30px">
+                    <p>
+                        Remember that as Benjamin Franklin said, <b>“By failing to prepare, you are preparing to fail”</b>. Commit yourself to your running and the marathon and use his adage in a positive light, “Successfully preparing is preparing for success.”
+                    </p>
+                    <p>
+                        You will succeed if you train properly. And in doing so you will find an incredible outlet that you can enjoy for many years to come.
+                    </p>
+                    <p>
+                        So lace up your running shoes, hit the road and discover or keep discovering the joys of running and marathon training!
+                    </p>
+                    <p>
+                        <b>Time to be epic!</b>
+                    </p>
+                </h4>
+            </div>
+
+        </div>
+        <br>
+
+        <div class="w3-row w3-center w3-dark-grey w3-padding-16 nav-shadow">
+            <h4>
+                <div class="w3-third w3-section">
+                    <a href="https://www.facebook.com/allaboutmarathontrainingcom" target="_blank" style="color: aliceblue">
+                <span class="w3-xxlarge"><i class="fa fa-facebook-official w3-hover-opacity img"></i></span><br> Facebook
+                </a>
+                </div>
+                <div class="w3-third w3-section">
+                    <a href="#" target="_blank" style="color: aliceblue">
+                <span class="w3-xxlarge"><i class="fa fa-twitter w3-hover-opacity img"></i></span><br> Twitter
+                </a>
+                </div>
+                <div class="w3-third w3-section">
+                    <a href="https://www.pinterest.com/aamarathontrain/" target="_blank" style="color: aliceblue">
+                <span class="w3-xxlarge"><i class="fa fa-pinterest-p w3-hover-opacity img"></i></span><br> Pinterest
+                </a>
+                </div>
+            </h4>
+        </div>
+        <!-- Sign up -->
+        <div class="w3-container w3-padding-48" id="contact">
+            <h3 class="w3-center">
+                <font color="#2f8991">P.S. Don't be a stranger. Every runner needs a support system <br>and I would love to be on your cheering squad!</font>
+            </h3>
+            <div class="w3-content w3-row-padding w3-center">
+                <h4 style="line-height:100px" class="w3-xlarge">
+                    <p>
+                        Sign up to receive training <b>tips and tools 2x a month </b>and turn into a full blooded runner!
+                    </p>
+                </h4>
+            </div>
+            <div class="w3-content w3-row w3-row-padding">
+                <div class="w3-container w3-half w3-padding">
+                    <a href="https://www.all-about-marathon-training.com/ChampTalk-Workbook.html" title="A Guide to Creating Your Mental Race Strategy">
+                <img src="https://www.all-about-marathon-training.com/images/SuperDuperFreeChampTalk.jpg" style="width:70%" class="w3-hover-opacity w3-round zoom w3-grayscale-max" alt="Lets start running">
+                </a>
+                    <a href="https://www.all-about-marathon-training.com/ChampTalk-Workbook.html">
+                        <h3 class="w3-small zoom w3-padding">& receive other exclusive content, training tool & updates!</h3>
+                    </a>
+                </div>
+                <div class="w3-container w3-half w3-padding-64">
+                    <input class="w3-input w3-border w3-round-large tbox" type="text" placeholder="Email*" required name="Email">
+                    <br><br>
+                    <button class="w3-btn w3-border w3-border-grey w3-round-large" style="width:80%"><b>Sign me up!</b></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-container w3-content w3-center w3-padding-16">
+            <hr>
+            <h4 style="line-height:50px;" class="w3-large">
+                <p>
+                    Have your say about what you just read! Leave me a comment in the box below.
+                </p>
+            </h4>
+            <div class="fb-comments" data-href="https://www.all-about-marathon-training.com/" data-width="500" data-numposts="7">
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="w3-center w3-black w3-padding-48 w3-opacity w3-hover-opacity-off">
+            <a href="#home" class="w3-button w3-light-grey zoom w3-round"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+            <div class="w3-xxlarge w3-section">
+                <i class="fa fa-facebook-official w3-hover-opacity zoom" target="_blank"></i>
+                <i class="fa fa-instagram w3-hover-opacity zoom" target="_blank"></i>
+                <i class="fa fa-snapchat w3-hover-opacity zoom" target="_blank"></i>
+                <i class="fa fa-pinterest-p w3-hover-opacity zoom" target="_blank"></i>
+                <i class="fa fa-twitter w3-hover-opacity zoom" target="_blank"></i>
+                <i class="fa fa-linkedin w3-hover-opacity zoom" target="_blank"></i>
+            </div>
+            <h5>Copyright &copy All-About-Marathon-Training.com | All Rights Reserved. 2010-2018</h5>
+            <p>Powered by <a href="http://www.sitesell.com/" target="_blank" target="_blank" class="w3-hover-text-red">SBI!</a> | <strong><i class="fa fa-code"></i></strong> with <strong><i class="fa fa-coffee"></i></strong> by a hobo</p>
+            <h6>*Disclaimer: While the information on this site is taken mostly from medical research journals and<br>scientifically based texts it is not meant to replace a doctor or medical professional.</h6>
+        </footer>
+    </main>
+</body>
+<link rel="stylesheet" href="support-files/main.css">
+<script src="support-files/script.js" type="text/javascript"></script>
+
+</html>
